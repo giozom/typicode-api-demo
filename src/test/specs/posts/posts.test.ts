@@ -2,6 +2,7 @@ import { StatusCodes } from "http-status-codes";
 import environment from "../../../../env";
 import * as supertest from 'supertest';
 import * as dotenv from 'dotenv';
+dotenv.config();
 
 describe('CRUD on Posts', () => {
     beforeAll(async()=>{
