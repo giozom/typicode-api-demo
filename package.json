@@ -11,10 +11,6 @@
     "test": "cross-env NODE_ENV=test && jest --testTimeout 30000",
     "test:watch": " jest ./dist/specs/*.js --watch --testtimeout 30000"
   },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/giozom/typicode-api-demo.git"
